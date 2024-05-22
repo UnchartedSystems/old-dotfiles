@@ -1,0 +1,22 @@
+theme = "catppuccin_macchiato"
+
+[editor]
+scroll-lines           = 1
+cursorline             = true
+completion-trigger-len = 1
+true-color             = true
+color-modes            = true
+
+[editor.lsp]
+display-messages    = true
+display-inlay-hints = true
+
+[editor.cursor-shape]
+insert = "bar"
+normal = "block"
+select = "underline"
+
+#[editor.statusline]
+#left = ["mode", "spinner", "file-name", "file-type", "total-line-numbers", "file-encoding"]
+#center = []
+#right = ["selections", "primary-selection-length", "position", "position-percentage", "spacer", "diagnostics", "workspace-diagnostics", "version-control"]
